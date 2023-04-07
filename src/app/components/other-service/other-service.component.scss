@@ -1,0 +1,173 @@
+* {
+    font-family: "myFont"
+}
+
+.service1 {
+    background-image: url('../../../assets/images/4.jpg');
+    opacity: .1;
+    transform: scale(1);
+    transition: all .6s ease-in;
+    z-index: -1;
+    height: 150px;
+}
+
+.service2 {
+    background-image: url('../../../assets/images/5.jpg');
+    opacity: .1;
+    transform: scale(1);
+    transition: all .6s ease-in;
+    z-index: -1;
+    height: 150px;
+}
+
+.service3 {
+    background-image: url('../../../assets/images/3.jpg');
+    opacity: .1;
+    transform: scale(1);
+    transition: all .6s ease-in;
+    z-index: -1;
+    height: 150px;
+}
+
+.seviceContainer1 {
+    overflow: hidden;
+    position: relative
+}
+
+.seviceContainer2 {
+    overflow: hidden;
+    position: relative
+}
+
+.seviceContainer3 {
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.seviceContainer1:hover .service1 {
+    opacity: .6;
+    transform: scale(1.2);
+    transition: all 1s ease-in;
+}
+
+.seviceContainer2:hover .service2 {
+    opacity: .9;
+    transform: scale(1.2);
+    transition: all 1s ease-in;
+}
+
+.seviceContainer3:hover .service3 {
+    opacity: .9;
+    transform: scale(1.2);
+    transition: all 1s ease-in;
+}
+
+.service1title {
+    position: absolute;
+    top: 0%;
+    left: 5%;
+}
+
+.service2title {
+    position: absolute;
+    top: 0%;
+    left: 5%;
+}
+
+.service3title {
+    position: absolute;
+    top: 0%;
+    left: 5%;
+}
+
+.service1Dis {
+    position: absolute;
+    top: 0%;
+    left: 30%;
+}
+
+.service2Dis {
+    position: absolute;
+    top: 0%;
+    left: 30%;
+}
+
+.service3Dis {
+    position: absolute;
+    top: 0%;
+    left: 30%;
+}
+
+@media screen and (max-width:992px) {
+    *{
+        font-family:"lightFont"
+    }
+    .service1 ,.service2,.service3{
+        height: 200px;
+    }
+    .service3{
+        height: 250px;
+    }
+    .service1Dis {
+        position: absolute;
+        top: 25%;
+        left: 5%;
+    }
+
+    .service2Dis {
+        position: absolute;
+        top: 25%;
+        left: 5%;
+    }
+
+    .service3Dis {
+        position: absolute;
+        top: 30%;
+        left: 5%;
+    }
+}
+ .rtl{
+    direction: rtl;
+    text-align: right;
+    .service1title {
+        position: absolute;
+        top: 0%;
+        right: 0%;
+    }
+    
+    .service2title {
+        position: absolute;
+        top: 0%;
+        right: 0%;
+    }
+    
+    .service3title {
+        position: absolute;
+        top: 0%;
+        right: 0%;
+    }
+    
+    .service1Dis {
+        position: absolute;
+        top: 0%;
+        right: 25%;
+    }
+    
+    .service2Dis {
+        position: absolute;
+        top: 0%;
+        right: 25%;
+    }
+    
+    .service3Dis {
+        position: absolute;
+        top: 0%;
+        right: 25%;
+    }
+
+  }
+  .ltr{
+    direction: ltr;
+    text-align: left;
+  }

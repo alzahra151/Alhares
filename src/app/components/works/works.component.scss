@@ -1,0 +1,19 @@
+.card{
+   border: none;
+}
+.card-img-top{
+    border: 1px solid #88C8C8;
+    background-color: #0c0b38 !important;
+}
+.card-body{
+    background-color: #45548a;
+    h5{direction: rtl;
+
+        a{
+            color :white;
+            direction:rtl;
+            text-decoration: none;
+        }
+    }
+   
+}

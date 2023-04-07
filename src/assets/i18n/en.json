@@ -1,0 +1,51 @@
+{
+    "Home":"Home",
+    "aboutUs" :"Alharess Company",
+    "intro":"Al hares Company started its security integration activity in 2019 with a license from the Ministry of Interior with an ambitious vision until now to provide security solutions, believing in the right of every individual to feel safe and secure wherever he is and providing a security system that includes surveillance cameras, networks, servers, and door opening devices, seeking to attract everyone who wants to achieve a safe and risk-free environment by highly experienced cadres to achieve security and safety for its clients on all fronts. It also contributes to the improvement of the economic climate in which the Kingdom of Saudi Arabia’s Vision 2030."
+,"services":{
+    "servic1":"Network Solutions ",
+    "servic2":"Theft alarm solutions ",
+    "servic3":"Gate Barrier",
+    "servic4":"Surveillance cameras",
+    "servic5":"Telephone systems (PBX)",
+    "servic6":"PA System"
+},
+"serviceDescription1":"we’ll cover the whole range of key requirements. From a simple installation of a cable run right through to design, commissioning, and support of a structured wide area network, we cover all your telecoms and mobility needs",
+"serviceDescription2":"Alhares offers a wide range of products that build reliable protection in every corner. By providing security measures that focus on very specific needs and risks, for example, smoke detection, water leak detection, or displacement detection for important objects, alarm products help you build a powerful security system that monitors all situations",
+"serviceDescription3":"We provide ideal and modern solutions to work system problems that facilities may encounter in registering attendance, leaving, entering, and exiting, which increases privacy • Configuration of the fingerprint device• Installing a barrier gate• Gate barrier access devices• Face, fingerprint, password, or card access control device. ",
+"serviceDescription4":"We provide you with a system for your home or facilities that allows you to control the entry of your visitors, and uses cutting-edge technologies such as 4K, panoramic, AI algorithm, thermal technology, intelligent network management system, etc., to provide a better and more secure experience.• Installing (IP/Analog) surveillance cameras and their systems• AI systems • Examining the sites before installing the cameras• System programming• Installation service Commissioning and implementation.Ongoing support.• Remote monitoring station programming• Cloud systems management",
+ "serviceDescription5":"We offer several types of exchange Telephones with advanced  technology. If you are a company or institution owner and  desire to purchase exchange devices with unique features and  according to your aspirations, we are here to serve you our  services.• Installation and programming of telephone Exchange systems (PBX). • Evaluation of the IP/Analog PBX system • Installation of PBX and telephones • Extension service  • PBX programming• Management of hardware operations",
+"serviceDescription6":"If you are looking for the best sound systems, your desired address would be Al Hares, we provide integrated solutions for mosques, factories, auditoriums, and hospitals)• Entertainment speakers (indoor/outdoor, ceiling speakers)• Entertainment devices (home theatre, speakers, etc.)• Extension service• Multifunctional controllers• Connections and programming",
+ "servicesName":"Our Services",
+ "Gate Barrier": "Gate Barrier",
+ "Surveillance Cameras": "Surveillance Cameras",
+ "Network Solutions": "Network Solutions",
+"vissionKey":"Our Vision",
+"vission":"With our commitment to excellence, we aspire to become a successful company in Saudi Arabia with distinguished human expertise and competencies by"
+,"missionKey":"Our Mission",
+"mission":"Our mission is to keep our clients in safe environments equipped with the highest quality and safety standards and enrich their experiences to gain confidence in everything we offer them"
+,"targetkey":"OurTarget",
+"target":" Providing innovative security solutions, products, and services in the field of integrating security systems and networks for all sectors at the level of the Kingdom."
+,"valuekey":"Our Values"
+,"vaules":{
+    "1":"Client First ",
+    "2":"Professionalism"
+},
+"value1":"The interest of our clients is our top priority, and their service and satisfaction are our first targets."
+,"value2":"We have made professionalism a way of working within the company through a team that can provide distinctive security solutions."
+,"otherservicekey1":"certificate",
+"otherservicetitle1":"Issuing a certificate of competency for security systems ,Allows you to issue the certificate by the police."
+,"otherservicekey2":"Security Consulting Service",
+"otherservicetitle2":"We offer to our clients a security consulting service by developing an integrated security perception for all establishments, individuals and risk management solutions.",
+"otherservicekey3":"Annual maintenance contract service",
+"otherservicetitle3":"In our desire to continue our close relationship with our privileged customers, we provide periodic maintenance service consisting of four-trimester visits every three months to maintain devices and ensure that they are effective or compensated with a new device during the warranty period."
+,"AskHelp":"For Ask Our Services",
+"askDescription":"If you want to ask our services or need inquiry you can send here!",
+"formBtn":"ٍSend Request",
+"about Us":"About Us",
+"contactUs":"Contact Us",
+"works": "Our Projects",
+"language":"العربية",
+"address":"Al-Firdous district, Dammam, Saudi Arabia,Prince Mohammad bin Fahad rd,Rawdh Al khuzama Tower",
+"email":"Sales@alhares.co"
+}

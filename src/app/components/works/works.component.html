@@ -1,0 +1,38 @@
+<div class="container-fluid">
+    <div class="row m-0 p-0">
+        <div class="col-lg-3 col-md-6">
+            <div class="card " >
+                <img class="card-img-top" [src]="works[0].images[1]" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title"> <a [routerLink]="['/work',works[0].id]" class="">{{works[0].name | translate}}</a></h5>
+                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                </div>
+              </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <div class="card" >
+                <img class="card-img-top "  [src]="works[1].images[3]" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title"> <a [routerLink]="['/work',works[1].id]" class="">{{works[1].name | translate}}</a></h5>
+                 
+                </div>
+              </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <div class="card " >
+                <img class="card-img-top"  [src]="works[2].images[4]" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title"> <a [routerLink]="['/work',works[2].id]" class="">{{works[2].name | translate}}</a></h5>
+                </div>
+              </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <div class="card" >
+                <img class="card-img-top"  [src]="works[3].images[0]" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title text-right"> <a [routerLink]="['/work',works[3].id]" class="text-right">{{works[3].name | translate}}</a></h5>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,44 @@
+*{
+    font-family:"myFont"
+}
+.coverImg{
+    position: relative;
+    box-shadow: inset 0px 0px 10px  #E3F6FF;
+    z-index: 1;
+    filter: drop-shadow(0px 10px 10px  #E3F6FF);
+}
+.ourworks{
+    position:absolute;
+    color:white;
+    // background-color:#070626;
+    z-index:10;
+    top:50%;
+    left:0%;
+    right:0%
+}
+.navbar{
+    position:absolute;
+    top:3px;
+    left:20%;
+    right: 20%; 
+     z-index: 10;
+     .collapse{
+      z-index: 1000;
+     }
+     .logoin{
+        
+     }
+     
+  };
+  @media only screen and (max-width: 991.98px){
+    .navbar{
+        position:absolute;
+        top:3px;
+        left:0%;
+        right: 0%;
+         z-index: 10;
+    }
+  }
+.currentWork{
+    border-bottom: .1px solid #88C8C8
+}

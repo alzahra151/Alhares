@@ -1,0 +1,20 @@
+<!-- <div>
+    <button><a href="https://docs.google.com/forms/d/e/1FAIpQLSekhr0hh3wPd8ydsQGeZ-99Rm_QyCn1EarjoLbTHv1Dk4XZOg/viewform?usp=sf_link">Ask for help</a></button>
+</div> -->
+<div class="row p-0 m-0 mt-5 justify-content-center containerall" [ngClass]="lang=='ar'?'rtl':'ltr'" dir="ltr">
+  <div class="col-lg-6 " [ngClass]="lang=='ar'?'rtl':'ltf'">
+    <div class=" w-75 contain d-none d-lg-block">
+    
+    </div>
+    <div class="col-lg-6  col-12 img " >
+        <img src="../../../assets/images/help.jpg" class=" w-100" [ngClass]="lang=='ar'?'rtl':'ltr'">
+    </div>
+   
+  </div>
+  <div class="col-lg-6">
+     <h1 class="text-light">{{"AskHelp" |translate}}</h1>
+     <p class="text-light">{{"askDescription"|translate}}</p>
+     <button class="formbtn p-2"><a href="https://docs.google.com/forms/d/e/1FAIpQLSekhr0hh3wPd8ydsQGeZ-99Rm_QyCn1EarjoLbTHv1Dk4XZOg/viewform?usp=sf_link">{{"formBtn" |translate}}</a></button>
+
+  </div>
+</div>

@@ -1,0 +1,22 @@
+<div class="navbar">
+  <app-navbar class="w-100 justify-content-center opacity-100 text-light"></app-navbar>
+</div>
+<img class="coverImg w-100" style="max-height: 450px;" src="../../../assets/images/DSC_8718.jpg">
+<div class="ourworks p-3 ">
+  <h2>works</h2>
+</div>
+<div class="p-4 currentWork text-light">
+  <h1>{{curentWork[0].name | translate}}</h1>
+</div>
+<div class="container mt-5 ">
+  <div class=" ">
+    <div class="row p-3" *ngFor="let work of curentWork">
+      <div class="col-lg-4 col-md-6 mb-2 " *ngFor="let img of work.images" style="max-height:270px">
+        <img class="w-100" [src]="img">
+      </div>
+     
+    </div>
+  </div> 
+</div>
+<!-- </div> -->
+

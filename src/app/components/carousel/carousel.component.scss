@@ -1,0 +1,107 @@
+
+.navbar{
+    position:absolute;
+    top:3px;
+    left:27%;
+    right: 27%; 
+     z-index: 10;
+     .collapse{
+      z-index: 1000;
+     }
+};
+.carousel{
+    position: relative;
+}
+*{
+    font-family: 'MyFont';
+}
+
+.carousel-indicators{
+    z-index: 5 !important;
+    position: relative;
+    background-color:  #070626 !important;
+}
+.carousel-control-prev,
+.carousel-control-next{
+    position: absolute;
+}
+
+.carousel-control-prev{
+    left: 69%;
+}
+.carousel-control-next{
+    right: 20%
+}
+.arrowIcon{
+    font-size: large;
+    color: white;
+    background-color: aqua;
+}
+.carousel-control-prev-icon{
+    background-image: url("../../../assets/images/arraow2.png");
+    width: 75px; ;
+    height: 75px;
+  }
+.carousel-control-next-icon {
+    background-image: url("../../../assets/images/arrow.png");
+    width: 75px; ;
+    height: 75px;
+
+}
+.controlContainer{
+    background-color: #070626;
+    // border-bottom :1px solid 
+}
+.indicators{
+    z-index: 5;
+}
+.smallCarousel{
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    top: 67%;
+    left: 25%;
+    z-index: 40;
+}
+.containercarsoul{
+   position: relative; 
+}
+.carousel-inner > .item {
+    position: relative;
+    display: none;
+    -webkit-transition: 0.1s ease-in-out left;
+    -moz-transition: 0.1s ease-in-out left;
+    -o-transition: 0.1s ease-in-out left;
+    transition: 0.1s ease-in-out left;
+}
+@media only screen and (max-width: 991.98px){
+   
+    .carousel-control-prev-icon{
+        background-image: url("../../../assets/images/arraow2.png");
+        width: 40px !important;
+        height: 40px !important;
+      }
+    .carousel-control-next-icon {
+        background-image: url("../../../assets/images/arrow.png");
+        width: 40px !important;
+        height: 40px !important;
+    
+    }
+    .carousel-control-prev{
+        left: 30%;
+    }
+    .carousel-control-next{
+        right: 64%;
+    }
+  
+}
+
+  @media only screen and (max-width: 991.98px){
+    .navbar{
+        position:absolute;
+        top:3px;
+        left:0%;
+        right: 0%;
+         z-index: 10;
+    }
+  }

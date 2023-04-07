@@ -1,0 +1,96 @@
+*{
+  font-family: "myFont";
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+}
+// .add{
+//   transform: scale(1.3);
+//   transition: transform 1s ease-in;
+//   background-color: red;
+// }
+// .remove{
+//   transform: scale(1);
+//   transition: transform 1s ease-in;
+// }
+.cover{
+  position: relative;
+  // height: 70vh;
+}
+.parallax-container {
+  opacity: .7;
+  width: 100%;
+  // height: 100vh;
+  z-index:30;
+  position:absolute;
+  top:0%;
+  left:0%;
+  //     background-image: url("../../../assets/images/secure.jpg");
+  //   background-size: cover;
+  // background-position: center ;
+}
+.visionConatianer{
+  position:absolute;
+  top:20%;
+  left:48%;
+  bottom:0%;
+  // z-index: 60;
+  // background-color:red
+}
+.missionCard{
+  // position: absolute;
+  // top: 35%;
+  // left:65%;
+  z-index: 500;
+  background-color: #45548a !important;
+}
+.visionCard{
+  // position: absolute;
+  // top: 7%;
+  // left:65%;
+  z-index: 122;
+  font-family: "lightFont";
+}
+
+.targetCard{
+  // position: absolute;
+  // top: 65%;
+  // left:65%;
+  z-index: 122;
+ 
+}
+.valueCard{
+  // position: absolute;
+  // top: 7%;
+  // left:5%;
+  z-index: 122;
+}
+.cover div{
+  background-color: #E3F6FF;
+}
+@media screen  and (max-width:992px){
+.valueCard ,.targetCard ,.visionCard  ,.missionCard{
+  left:0%;
+  margin:0px
+  p{
+    font-family: "lightFont"
+  }
+}
+.visionConatianer{
+ 
+  padding:0px;
+  left:0%;
+  bottom:0%;
+}
+  
+}
+.rtl{
+  direction: rtl;
+  text-align: right;
+}
+.ltr{
+  direction: ltr;
+  text-align: left;
+}

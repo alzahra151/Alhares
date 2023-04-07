@@ -1,0 +1,57 @@
+<div class="overlay"></div>
+<div class="navbar-container " [ngClass]="lang=='ar'?'rtl':'ltr'"  >
+<nav class="navbar customNav navbar-expand-lg  text-center justify-content-center opacity-100">
+    <div class="container-fluid text-center navcontainer">
+      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+      <div id="overlay"></div>
+  
+      <button class="navbar-toggler" (click)="openMenu()" type="button"  data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span [ngClass]="MenuIsopen==false? 'bi bi-list-nested fs-3 menuIcon' : 'bi bi-x fs-3 menuIcon'"></span>
+     
+      </button>
+     
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <button class="navbar-toggler d-flex d-sm-none align-self-start closeBtn" (click)="openMenu()" type="button"  data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span [ngClass]="MenuIsopen==false? 'bi bi-list fs-3 menuIcon' : 'bi bi-x fs-3 menuIcon'"></span>
+       
+        </button>
+        <ul class="navbar-nav pt-5 ">
+          <li class="nav-item m-1">
+            <a class="nav-link active" [routerLink]="['/']" aria-current="page"  >{{"Home" |translate}}</a>
+          </li>
+          <li class="nav-item m-1">
+            <a class="nav-link" [routerLink]="['/AboutUs']"  >{{"about Us" |translate}}</a>
+          </li>
+          <li class="nav-item m-1">
+            <a class="nav-link" [routerLink]="['/ContactUs']" >{{"contactUs" |translate}}</a>
+          </li>
+        
+          <li class="nav-item m-1 dropdown">
+            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             {{"works" | translate}}
+            </a>
+            <ul class="dropdown-menu" data-aos="slide-down">
+              <li><a class="dropdown-item " [routerLink]="['/work' ,1]">{{"services.servic3"|translate}}</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/work',2]">{{"services.servic4"|translate}}</a></li>
+              <li><a class="dropdown-item"[routerLink]="['/work' ,3]">{{"services.servic1"|translate}}</a></li>
+            </ul>
+          </li>
+          <li class="nav-item m-1">
+            <a class="nav-link btn"  (click)="swichLanguage()">{{"language" |translate}}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    
+   
+  </nav>
+</div>
+<!-- <div class="col-10 mt-3 logoin">
+  <div class="d-flex flex-column justify-content-center align-items-center logo" >
+    <span class="m-0 col-6 p-0 pb-2 " >
+        <img src="assets/images/loggo3.png" class="w-100 m-0 mb-3 ">
+    </span>
+  
+  </div>
+</div> -->
