@@ -22,14 +22,14 @@ import { WorkDetailsComponent } from './components/work-details/work-details.com
 import { LogoComponent } from './components/logo/logo.component';
 import { OtherServiceComponent } from './components/other-service/other-service.component';
 import { VisionMissionComponent } from './components/vision-mission/vision-mission.component';
-import { NgxParallaxScrollModule } from 'ngx-parallax-scroll';
+
 import { FooterComponent } from './components/footer/footer.component';
 import { AskForServiceComponent } from './components/ask-for-service/ask-for-service.component';
 import { SpinnerComponent } from './components/spinner/spinner.component';
 import { LoadingInterceptor } from './interceptors/loading.interceptor';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import { VisionComponent } from './components/vision/vision.component';
-// import { NgsRevealModule } from 'ng-scrollreveal';
+
 
 @NgModule({
   declarations: [
