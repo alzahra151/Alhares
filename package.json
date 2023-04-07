@@ -17,7 +17,7 @@
     "@angular/compiler": "^15.2.0",
     "@angular/core": "^15.2.0",
     "@angular/forms": "^15.2.0",
-   "@ngmodule/material-carousel": "^7.3.7",
+   "@ngmodule/material-carousel": "^0.0.2",
     "@angular/platform-browser": "^15.2.0",
     "@angular/platform-browser-dynamic": "^15.2.0",
     "@angular/router": "^15.2.0",
