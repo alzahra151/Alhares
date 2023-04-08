@@ -1,5 +1,4 @@
 import { HostListener ,Component } from '@angular/core';
-import { trigger, animate, transition, style } from '@angular/animations';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
