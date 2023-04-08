@@ -3,8 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 // import { SwiperModule } from ;
 // import {SwiperModule} from 'swiper/angular';
 
-import { MatCarouselModule } from '@ngmodule/material-carousel';
-
 // import { register } from 'swiper/element/bundle';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
