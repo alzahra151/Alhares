@@ -1,7 +1,6 @@
 import { Component, ElementRef, OnInit, Renderer2 } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { LanguageService } from 'src/app/services/language.service';
-import { trigger, transition, style, animate } from '@angular/animations';
 
 @Component({
   selector: 'app-about-us',
@@ -25,9 +24,3 @@ export class AboutUsComponent implements OnInit {
     }
     
 }
-export const slideInAnimation = trigger('slideInAnimation', [
-  transition(':enter', [
-    style({ opacity: 0, transform: 'translateX(-100%)' }),
-    animate('0.5s ease-in-out', style({ opacity: 1, transform: 'translateX(0%)' })),
-  ]),
-]);
